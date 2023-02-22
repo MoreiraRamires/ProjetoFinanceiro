@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinanceiro.Web", "ProjetoFinanceiro.Web.csproj", "{C452CA46-75F8-47A5-B43D-CB5531FC5DD4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinanceiro.Api", "ProjetoFinanceiro\ProjetoFinanceiro.Api.csproj", "{D53392D1-60E0-4E73-8E8C-A4B3DED07B86}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinanceiro.Domain", "..\ProjetoFinanceiro.Domain\ProjetoFinanceiro.Domain.csproj", "{43D8EAB1-3892-40CB-89AF-83857B38432B}"
@@ -15,16 +13,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinanceiro.Services"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinanceiro.Teste", "..\ProjetoFinanceiro.Teste\ProjetoFinanceiro.Teste.csproj", "{D4FAED0D-DB48-4577-A343-F1CFF72A7CDF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ProjetoFinanceiro.Web", "..\ProjetoFinanceiro.Web\ProjetoFinanceiro.Web.fsproj", "{52424A0F-FEE7-4BC3-98B9-FE193F5530E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C452CA46-75F8-47A5-B43D-CB5531FC5DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C452CA46-75F8-47A5-B43D-CB5531FC5DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C452CA46-75F8-47A5-B43D-CB5531FC5DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C452CA46-75F8-47A5-B43D-CB5531FC5DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D53392D1-60E0-4E73-8E8C-A4B3DED07B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D53392D1-60E0-4E73-8E8C-A4B3DED07B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53392D1-60E0-4E73-8E8C-A4B3DED07B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{D4FAED0D-DB48-4577-A343-F1CFF72A7CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4FAED0D-DB48-4577-A343-F1CFF72A7CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4FAED0D-DB48-4577-A343-F1CFF72A7CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52424A0F-FEE7-4BC3-98B9-FE193F5530E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52424A0F-FEE7-4BC3-98B9-FE193F5530E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52424A0F-FEE7-4BC3-98B9-FE193F5530E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52424A0F-FEE7-4BC3-98B9-FE193F5530E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
